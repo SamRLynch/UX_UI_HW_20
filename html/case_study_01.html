@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css" media="screen">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <meta name="description" content="Sam Lynch - Product Manager - Creative Technologist">
+    <meta name="author" content="">
+    <meta name="keywords" content="Dog Grooming,Pet Grooming,dog grooming,Barnstead, New Hampshire, NH, Barn Dog Grooming">
+    <title>Sam Lynch - Product Manager</title>
+    <link rel="icon" type="image/x-icon" href="icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/x-icon" href="SL.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/default.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+    hljs.initHighlightingOnLoad();
+    </script>
+    <script type="text/javascript">
+    function myFunction() {
+        var x = document.getElementById("myMobilenav");
+        if (x.className === "mobilenav") { x.className += " responsive"; } else { x.className = "mobilenav"; }
+    }
+    </script>
+    <script type="text/javascript">
+    function nav_close() {
+        var x = document.getElementById("myMobilenav");
+        if (x.className === "mobilenav") {
+            x.className += " nav_close";
+        } else {
+            x.className = "mobilenav";
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <nav class="top_nav_container">
+        <ul class="navigation case_study_nav">
+            <li class="n_logo"><a href="../index.html">Sam Lynch</a></li>
+            <li class="n_projects"><a href="../index.html#projects" id="projects_m">Projects</a></li>
+            <li class="n_about"><a href="../index.html#about" id="about_m">About</a></li>
+            <li class="n_contact"><a href="../index.html#contact" id="contact_m">Contact</a></li>
+        </ul>
+        <ul class="mobilenav" id="myMobilenav">
+            <li><a href="../index.html#projects" id="projects_m" onclick="nav_close()">PROJECTS</a></li>
+            <li><a href="../index.html#about" id="about_m" onclick="nav_close()">ABOUT</a></li>
+            <li><a href="../index.html#contact" id="contact_m" onclick="nav_close()">CONTACT</a></li>
+            <li class="mobilemenu">
+                <a href="../index.html">Sam Lynch</a>
+                <a href="javascript:void(0);" style="font-size:15px;" class="mobile_dropdown" id="menu_m" onclick="myFunction()"><i class="fas fa-bars"></i></a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="toc_nav">
+        <li class="list-group-item"><a href="#01_brief"><span class="num">1.</span> Brief</a></li>
+        <li class="list-group-item"><a href="#02_roadmap"><span class="num">2.</span> Product Roadmap</a></li>
+        <li class="list-group-item"><a href="#03_stakeholder"><span class="num">3.</span> Stakeholder Interview</a></li>
+        <li class="list-group-item"><a href="#04_research"><span class="num">4.</span> Research</a></li>
+        <li class="list-group-item"><a href="#05_sitemap"><span class="num">5.</span> Sitemap Redesign</a></li>
+        <li class="list-group-item"><a href="#06_design"><span class="num">6.</span> Design</a></li>
+        <li class="list-group-item"><a href="#07_prototypes"><span class="num">7.</span> Prototypes</a></li>
+        <li class="list-group-item"><a href="#08_testing"><span class="num">8.</span> Testing</a></li>
+        <li class="list-group-item"><a href="#09_dev"><span class="num">9.</span> Front-End Dev</a></li>
+        <li class="list-group-item"><a href="#10_launch"><span class="num">10.</span> Launch</a></li>
+    </ul>
+    <div class="container">
+        <div class="case_study_page">
+            <img class="blob_01" src="../images/CS_1_A.svg">
+            <img class="blob_02" src="../images/CS_1_B.svg">
+            <div class="case_study_head">
+                <h1>Website Redesign</h1>
+                <h3>Case Study</h3>
+                <p>Client: Barndog Grooming</p>
+                <p>Designer: Sam Lynch</p>
+            </div>
+            <div class="head_images">
+                <div class="phone_02"><img src="../images/Project_1_B.png" alt="Barndog Grooming Mobile View 01"></div>
+                <div class="phone_01"><img src="../images/Project_1_A.png" alt="Barndog Grooming Mobile View 02"></div>
+            </div>
+            <div class="overview">
+                <div>
+                    <h4>Product</h4>
+                    <p>Established in 2017, Barn Dog Grooming is a growing small business located in Barnstead, New Hampshire. Their website (BarnDogGrooming.com) is used to drive customers to their business and provide visitors with contact information. </p>
+                </div>
+                <div>
+                    <h4>Challenge</h4>
+                    <p>The current website is outdated and no longer suits visitors’ needs. The owner is extremely busy running the business and can not provide any new content or assets. The website needs to be redesigned in order to stay relevant in their market.</p>
+                </div>
+                <div>
+                    <h4>Solution</h4>
+                    <p>Design, prototype, test, code and launch a fully functional and responsive website. The new site will help direct new customers and grow the business.</p>
+                </div>
+            </div>
+            <div class="brief">
+                <h2><span id="01_brief"></span>Brief</h2>
+                <div class="brief_container">
+                    <div>
+                        <h3>Project Type</h3>
+                        <p>Individual</p>
+                    </div>
+                    <div>
+                        <h3>My Role</h3>
+                        <p>UX Researcher, UX/UI Designer, Prototyper, Front-End Developer</p>
+                    </div>
+                    <div>
+                        <h3>Tools</h3>
+                        <p>Figma, Illustrator, Photoshop, Sublime Text, Github</p>
+                    </div>
+                    <div>
+                        <h3>Project Type</h3>
+                        <p><b>8 Weeks</b></p>
+                        <p>November 1, 2021 &#8212; December 31, 2021</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="roadmap">
+                <h2><span id="02_roadmap"></span>Product Roadmap</h2>
+                <img src="../images/ProductRoadmap.png" alt="product roadmap" />
+            </div>
+            <div class="stakeholder">
+                <h2><span id="03_stakeholder"></span>Stakeholder Interview</h2>
+                <img src="../images/groomer_illustration.png" alt="dog grooming illustration" />
+                <p>I met with the stakeholder who is the owner of Barndog Grooming. I conducted an interview to hear their requirements for the site redesign as well as gain insight in to their customers.</p>
+                <div class="stakeholder_cards">
+                    <div>
+                        <h4>Customer Insights</h4>
+                        <ul>
+                            <li>Majority of customers live within a 30 minute drive.</li>
+                            <li>Business is growing quickly with a mix of new and returning customers.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Key Problems</h4>
+                        <ul>
+                            <li>Visitors can’t find hours of operation.</li>
+                            <li>The current mobile experience is very poor.</li>
+                            <li>Business has over 50 5-star Google reviews that are not currently featured.</li>
+                            <li>Some customers are don’t like seeing pictures of their ungroomed pets.</li>
+                            <li>The price of services has changed and is incorrect.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="research">
+                <h2><span id="04_research"></span>Research</h2>
+                <div class="site_analysis">
+                    <div>
+                        <h3>Site Analysis</h3>
+                        <p>The current website was avaluated for Jakob Nielsen's 10 general principles for interaction design.</p>
+                        <p><b>Negative Findings</b></p>
+                        <ul>
+                            <li>Inconsistent spacing</li>
+                            <li>No calls to action</li>
+                            <li>Dull color palette</li>
+                            <li>Erratic alignment</li>
+                            <li>Parallax headers do not work properly</li>
+                        </ul>
+                    </div>
+                    <img src="../images/site_analysis_01.png" alt="desktop website">
+                    <img src="../images/site_analysis_02.png" alt="mobile website">
+                </div>
+                <div class="competitor_analysis">
+                    <h3>Competitor Analysis</h3>
+                    <p>A competitor analysis was run on websites of the three nearest dog groomers.</p>
+                    <table>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <img src="../images/case_study_01.png" alt="Pupper Cite Dog Frooming">
+                                <p><b>Pupper City Dog Grooming</b></p>
+                                <p>Barnstead, NH</p>
+                            </td>
+                            <td>
+                                <img src="../images/case_study_02.png" alt="Lakeside Grooming">
+                                <p><b>Lakeside Grooming</b></p>
+                                <p>Gilmanton, NH</p>
+                            </td>
+                            <td>
+                                <img src="../images/case_study_03.png" alt="Lakeside Grooming">
+                                <p><b>Shampoodles</b></p>
+                                <p>Alton, NH</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Testimonials</p>
+                            </td>
+                            <td>
+                                <img src="../images/ICON_check_blue.png" alt="checkmark">
+                            </td>
+                            <td>
+                                <img src="../images/ICON_no_red.png" alt="no">
+                            </td>
+                            <td>
+                                <img src="../images/ICON_no_red.png" alt="no">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Map</p>
+                            </td>
+                            <td>
+                                <img src="../images/ICON_map_blue.png" alt="map">
+                            </td>
+                            <td>
+                                <img src="../images/ICON_no_red.png" alt="no">
+                            </td>
+                            <td>
+                                <img src="../images/ICON_map_blue.png" alt="map">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Responsive Design</p>
+                            </td>
+                            <td>
+                                <img src="../images/ICON_check_blue.png" alt="checkmark"> </td>
+                            <td>
+                                <img src="../images/ICON_no_red.png" alt="no">
+                            </td>
+                            <td>
+                                <img src="../images/ICON_no_red.png" alt="no">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>Contact Info</p>
+                            </td>
+                            <td>
+                                <img src="../images/ICON_phone_email.png" alt="phone email">
+                            <td>
+                                <img src="../images/ICON_phone_email.png" alt="phone email"> </td>
+                            <td>
+                                <img src="../images/ICON_phone.png" alt="phone"> </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="user_persona">
+                    <div>
+                        <h3>User Persona</h3>
+                        <p><b>Meeet Angela</b></p>
+                        <p>She lives in Pittsfield, NH with her partner and her 4-year-old Yorkshire Terrier Rufus. She has to bring Rufus to a groomer every 4-6 weeks to keep his coat healthy and clean. </p>
+                    </div>
+                    <div>
+                        <img src="../images/persona.png" alt="user persona"></div>
+                </div>
+            </div>
+            <div class="sitemap">
+                <h2><span id="05_sitemap"></span>Sitemap Redesign</h2>
+                <h3>Original Sitemap</h3>
+                <p>A sitemap was created to outline the current site architecture. </p>
+                <img src="../images/sitemap_01.png" alt="original sitemap">
+                <h3>Redesign</h3>
+                <p>A new sitemap was designed in order to direct users to the most relevant content first.</p>
+                <img src="../images/sitemap_02.png" alt="redesigned sitemap" />
+            </div>
+            <div class="design">
+                <h2><span id="06_design"></span>Design</h2>
+                <h3>Wireframes</h3>
+                <p>Sketches and wireframes were designed for each page on the sitemap.</p>
+                <div>
+                    <img src="../images/wireframe_01.png" alt="wireframe sketch" />
+                    <img src="../images/wireframe_02.png" alt="wireframe sketch" />
+                    <img src="../images/wireframe_03.png" alt="wireframe sketch" />
+                    <img src="../images/wireframe_04.png" alt="desktop wireframe" />
+                    <img src="../images/wireframe_07.png" alt="mobile wireframe" />
+                    <img src="../images/wireframe_06.png" alt="mobile wireframe" />
+                    <img src="../images/wireframe_05.png" alt="desktop wireframe" />
+                </div>
+                <h3>Styleguide</h3>
+                <div class="styleguide">
+                    <img src="../images/STYLEGUIDE.png" alt="Barndog Grooming Styleguide" />
+                </div>
+                <h3>High-Fidelity Designs</h3>
+                <div class="hifi_designs">
+                    <p>Styles, colors and assets were added to the wireframes. Since I had limited existing content to use, I decided to fill space with blob shapes and illustrations. I contracted an illustrator (fiverr.com/santiagolztn) to draw two dog grooming illustrations. </p>
+                    <img src="../images/desktop_design.png" alt="desktop page designs" />
+                </div>
+                <img src="../images/mobile_design.png" class="mobile_img" alt="mobile page designs" />
+            </div>
+            <div class="prototypes">
+                <h2><span id="07_prototypes"></span>Prototypes</h2>
+                <p>Clickable prototypes were created on Figma for the desktop and mobile site designs.</p>
+                <div class="figma_buttons">
+                    <a href="https://www.figma.com/proto/zWqgzP6w7eoTBbP6THnQOv/barndog-website?node-id=646%3A12449&scaling=min-zoom&page-id=405%3A6159&starting-point-node-id=646%3A12449"><button class="button_03"><img src="../images/ICON_figma.png" alt="figma icon" />Desktop Prototype</button></a>
+                    <a href="https://www.figma.com/proto/zWqgzP6w7eoTBbP6THnQOv/barndog-website?node-id=529%3A8286&scaling=scale-down&page-id=405%3A6160&starting-point-node-id=529%3A8286"><button class="button_03"><img src="../images/ICON_figma.png" alt="figma icon" />Mobile Prototype</button></a>
+                </div>
+                <div>
+                    <img src="../images/prototype_01.png" alt="desktop prototype" />
+                    <img src="../images/prototype_02.png" alt="mobile prototype" />
+                </div>
+            </div>
+            <div class="testing">
+                <h2><span id="08_testing"></span>Testing</h2>
+                <div>
+                    <p>Usability testing was conducted on the desktop and mobile prototypes with 5 subjects. An A/B test was conducted on the mobile navigation layout with the same 5 subjects.</p>
+                    <div class="testing_tasks">
+                        <h4>Tasks</h4>
+                        <ul>
+                            <li>Make a dog grooming appointment</li>
+                            <li>Determine if the business is open on Friday at 9am</li>
+                            <li>Contact the owner of the business</li>
+                            <li>Determine if the business offers pet ear cleaning</li>
+                            <li>Read 3 testimonials</li>
+                        </ul>
+                    </div>
+                    <h3>Results</h3>
+                    <div class="results_img">
+                        <img src="../images/Results_01.png" alt="40% Called to make and Appointment" />
+                        <img src="../images/Results_02.png" alt="100% Determined the business was open at 9am" />
+                        <img src="../images/Results_03.png" alt="100% Could contact the owner" />
+                        <img src="../images/Results_04.png" alt="80% Found ear cleaning on services page" />
+                        <img src="../images/Results_05.png" alt="100% Read 3 testimonials" />
+                    </div>
+                    <div class="testing_takeaways">
+                        <h4>Takeaways</h4>
+                        <ul>
+                            <li>Need to make it clear to the user they need to call to make an appointment.</li>
+                            <li>Adjust font spacing and list style in the services section.</li>
+                            <li>The majority of users contacted the owner through the contact section at the bottom.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="testing_a_b">
+                    <h3>A/B Testing</h3>
+                    <p>Do users prefer a top or bottom navigation on the mobile prototype?</p>
+                    <div>
+                        <img src="../images/A_B_01.png" alt="20% Option A" />
+                        <img src="../images/A_B_02.png" alt="80% Option B" />
+                    </div>
+                </div>
+            </div>
+            <div class="front_end">
+                <h2><span id="09_dev"></span>Front-End Development</h2>
+                <h3>Languages</h3>
+                <div class="languages">
+                    <img src="../images/languages_01.png" alt="SASS/CSS 60%" />
+                    <img src="../images/languages_02.png" alt="HTML 35%" />
+                    <img src="../images/languages_03.png" alt="JavaScript 5%" />
+                    <a href="https://github.com/SamRLynch/BarnDogGrooming" target="_blank"><button class="button_03"><img src="../images/ICON_github.svg" alt="github icon" />Project on Github</button></a>
+                </div>
+                <h3>Variables &amp; Mixins</h3>
+                <div class="fe_variables">
+                    <div>
+                        <p>SASS variables and mixins were written for all colors, classes, and components based on the style guide.</p>
+                        <p>Maintaining variables allowed flexibility if any colors or styles needed to change in future iterations.</p>
+                    </div>
+                    <pre>
+                        <code class="language-scss">
+$header_font: 'PoppinsSemibold', 
+sans-serif;
+$body_font: 'OpenSansLight', 
+sans-serif;
+
+$background_color: #E6F2FF;
+$text_color: #E6F2FF;
+$accent_color: #3478C5;
+$nav_color: #032F61;
+$star_yellow: #efba42;
+$button_blue: #599BE8;
+$light_blue: #C1DDFE;
+$cell_blue: #3477C6;
+$white: #FFF;
+                        </code>
+                    </pre>
+                    <pre>
+            <code class="language-scss">
+@mixin body_font_mixin {
+    @include p_size;
+    font-family: $body_font;
+    display: block;
+    color: $white;
+    font-weight: 100;
+    margin-bottom: 10pt;
+}
+
+@mixin head_font_mixin {
+    font-family: $header_font;
+    @include header_size;
+    display: block;
+    color: $text_color;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+@mixin header_size {
+    font-size: 48pt;
+
+    @media only screen and 
+    (min-width: 1020px) {
+        font-size: 60pt;
+    }
+
+    @media only screen and 
+    (min-width: 1200px) {
+        font-size: 72pt;
+    }
+}
+            </code>
+                        
+                    </pre>
+                </div>
+                <h3>CSS Grid</h3>
+                <div class="fe_grid">
+                    <div>
+                        <p>Since the Figma designs were used a grid, I used CSS-grid to handle the site layout and simplify the responsive design process.</p>
+                        <p>The mosaic image layout was handled by using grid-template-areas for the featured pet gallery.</p>
+                    </div>
+                    <div>
+                        <pre>
+                        <code class="language-scss">
+.pet_gallery {
+    margin-top: 1em;
+    grid-area: 3 / 2 / 3 / span 6;
+    display: grid;
+    border-radius: 5px;
+    grid-template-areas:
+        "img1 img1 img3 img5 img5 img8"
+        "img1 img1 img4 img6 img9 img9"
+        "img2 img2 img4 img7 img9 img9";
+    grid-template-rows: 10vw 10vw 10vw;
+    grid-gap: 10px;
+}
+                        </code>
+                    </pre>
+                        <pre>
+                        <code class="language-scss">
+.pet_gallery {
+    grid-area: 3 / 2 / 3 / 2;
+    display: grid; 
+    grid-gap: 5px;
+    border-radius: 5px;
+    grid-template-areas:
+        "img1 img3"
+        "img2 img2"
+        "img4 img6"
+        "img4 img8"
+        "img5 img5"
+        "img9 img7";
+}
+                        </code>
+                    </pre>
+                    </div>
+                    <div>
+                        <img src="../images/grid_desktop.png" alt="css grid desktop" />
+                        <img src="../images/grid_mobile.png" alt="css grid mobile" />
+                    </div>
+                </div>
+                <h3>Responsive Navigation</h3>
+                <div class="fe_responsive">
+                    <p>On mobile screens, the CSS displays a hamburger menu. JavaScript toggles the mobile nav by adding the “responsive” class when the hamburger is clicked. </p>
+                </div>
+            </div>
+            <div class="launch">
+
+                <h2><span id="10_launch"></span>Launch</h2>
+                <div>
+                    <p>After QA testing on a development environment, the new website for BarndogGrooming.com was officially launched on December 29, 2021.</p>
+                </div>
+                <img src="../images/launch_01.png" alt="Desktop" />
+                <img src="../images/launch_02.png" alt="Mobile" />
+                <img src="../images/launch_03.png" alt="Rocket" />
+            </div>
+            <div class="thankyou">
+                <div>
+                    <h2>THANK YOU</h2>
+                    <p>For reading my case study</p>
+                </div>
+                <div class="smoke">
+                    <img src="../images/smoke.svg" alt="launch" />
+                </div>
+            </div>
+            <!--- close case study ---->
+        </div>
+    </div>
+    </div>
+    </div>
+</body>
+
+</html>
